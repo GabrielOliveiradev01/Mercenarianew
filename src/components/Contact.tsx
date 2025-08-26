@@ -191,12 +191,12 @@ const Contact = () => {
                       className="w-full bg-gray-900/50 border border-gray-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-yellow-500 focus:ring-1 focus:ring-yellow-500"
                     >
                       <option value="">Selecione um serviço</option>
-                      <option value="cozinha">Cozinha Planejada</option>
-                      <option value="banheiro">Banheiro</option>
-                      <option value="closet">Closet</option>
-                      <option value="sala">Sala de Estar</option>
+                      <option value="sala">Sala</option>
+                      <option value="sala-descanso">Sala de Descanso</option>
+                      <option value="sala-jantar">Sala de Jantar</option>
+                      <option value="sala-estar">Sala de Estar</option>
                       <option value="escritorio">Escritório</option>
-                      <option value="area-externa">Área Externa</option>
+                      <option value="sala">Sala</option>
                       <option value="outro">Outro</option>
                     </select>
                   </div>

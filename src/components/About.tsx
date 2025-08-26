@@ -48,8 +48,8 @@ const About = () => {
               </p>
               
               <p>
-                Nossa expertise abrange desde cozinhas modernas e elegantes até closets organizados 
-                e banheiros luxuosos. Cada projeto é desenvolvido com atenção aos mínimos detalhes, 
+                        Nossa expertise abrange desde salas planejadas e elegantes até salas de jantar organizadas
+        e salas de descanso luxuosas. Cada projeto é desenvolvido com atenção aos mínimos detalhes, 
                 utilizando materiais premium e tecnologia de ponta para garantir durabilidade e beleza.
               </p>
 

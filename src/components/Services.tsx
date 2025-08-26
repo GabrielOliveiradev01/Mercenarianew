@@ -1,31 +1,31 @@
 import React from 'react';
-import { ChefHat, Bath, Sofa, Shirt, Briefcase, TreePine } from 'lucide-react';
+import { Home, Bed, Utensils, Sofa, Briefcase, TreePine } from 'lucide-react';
 
 const Services = () => {
   const services = [
     {
-      icon: <ChefHat className="w-10 h-10" />,
-      title: "Cozinhas Planejadas",
-      description: "Design funcional e elegante para o coração da sua casa, com soluções inteligentes de armazenamento e acabamentos premium.",
-      features: ["Medidas personalizadas", "Materiais de alta qualidade", "Design moderno", "Funcionalidade otimizada"]
+      icon: <Home className="w-10 h-10" />,
+      title: "Salas Planejadas",
+      description: "Transforme suas salas com móveis sob medida, iluminação inteligente e acabamentos premium que criam ambientes únicos e funcionais.",
+      features: ["Móveis personalizados", "Iluminação inteligente", "Acabamentos premium", "Design exclusivo"]
     },
     {
-      icon: <Bath className="w-10 h-10" />,
-      title: "Banheiros Luxuosos",
-      description: "Transforme seu banheiro em um spa pessoal com móveis sob medida, espelhos especiais e organizadores exclusivos.",
-      features: ["Móveis sob medida", "Resistência à umidade", "Design contemporâneo", "Soluções de organização"]
+      icon: <Bed className="w-10 h-10" />,
+      title: "Salas de Descanso",
+      description: "Crie espaços de relaxamento com móveis sob medida, organizadores especiais e acabamentos que promovem bem-estar e conforto.",
+      features: ["Móveis sob medida", "Organizadores especiais", "Acabamentos confortáveis", "Design relaxante"]
+    },
+    {
+      icon: <Utensils className="w-10 h-10" />,
+      title: "Salas de Jantar",
+      description: "Transforme sua sala de jantar com móveis planejados, organizadores inteligentes e máximo aproveitamento de espaço.",
+      features: ["Móveis planejados", "Organizadores inteligentes", "Máximo aproveitamento", "Design funcional"]
     },
     {
       icon: <Sofa className="w-10 h-10" />,
       title: "Salas de Estar",
       description: "Ambientes de convívio únicos com móveis que combinam conforto, estilo e funcionalidade para toda a família.",
       features: ["Racks personalizados", "Estantes modulares", "Painéis decorativos", "Integração tecnológica"]
-    },
-    {
-      icon: <Shirt className="w-10 h-10" />,
-      title: "Closets Organizados",
-      description: "Organize seu guarda-roupa com estilo. Closets planejados com divisórias inteligentes e máximo aproveitamento de espaço.",
-      features: ["Divisórias inteligentes", "Sistemas de iluminação", "Espelhos integrados", "Gavetas especializadas"]
     },
     {
       icon: <Briefcase className="w-10 h-10" />,
@@ -35,9 +35,9 @@ const Services = () => {
     },
     {
       icon: <TreePine className="w-10 h-10" />,
-      title: "Áreas Externas",
-      description: "Móveis planejados para varanda, jardim e área gourmet, resistentes às intempéries e com design exclusivo.",
-      features: ["Materiais resistentes", "Design outdoor", "Área gourmet completa", "Durabilidade garantida"]
+      title: "Salas",
+      description: "Móveis planejados para todos os tipos de salas, com design exclusivo e soluções personalizadas para cada ambiente.",
+      features: ["Design personalizado", "Soluções exclusivas", "Máxima funcionalidade", "Estilo único"]
     }
   ];
 

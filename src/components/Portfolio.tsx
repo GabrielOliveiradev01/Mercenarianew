@@ -8,20 +8,20 @@ const Portfolio = () => {
   const portfolioItems = [
     {
       id: 1,
-      title: "Cozinha Moderna Premium",
-      category: "Cozinha",
+      title: "Sala Moderna Premium",
+      category: "Sala",
       image: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
       id: 2,
-      title: "Closet Minimalista",
-      category: "Closet",
+      title: "Sala de Jantar Elegante",
+      category: "Sala de Jantar",
       image: "https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
       id: 3,
-      title: "Banheiro Luxuoso",
-      category: "Banheiro",
+      title: "Sala de Descanso",
+      category: "Sala de Descanso",
       image: "https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
@@ -38,8 +38,8 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      title: "Área Gourmet Externa",
-      category: "Área Externa",
+      title: "Sala Gourmet",
+      category: "Sala",
       image: "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800"
     }
   ];

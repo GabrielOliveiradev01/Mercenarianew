@@ -110,9 +110,9 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold mb-4">Serviços</h3>
             <ul className="space-y-3 text-gray-400 text-sm">
-              <li>Cozinhas Planejadas</li>
-              <li>Banheiros Luxuosos</li>
-              <li>Closets Organizados</li>
+                              <li>Salas Planejadas</li>
+                <li>Salas de Descanso</li>
+                <li>Salas de Jantar</li>
               <li>Salas de Estar</li>
               <li>Escritórios</li>
               <li>Áreas Externas</li>

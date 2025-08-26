@@ -3,6 +3,7 @@ import { Bot, Send, Lightbulb, Ruler, Palette, Image, X, MessageCircle } from 'l
 
 const ProjectCreator = () => {
   const [projectDescription, setProjectDescription] = useState('');
+  const [phone, setPhone] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);
   const [suggestions, setSuggestions] = useState<string>('');
   const [showImageModal, setShowImageModal] = useState(false);
@@ -48,6 +49,16 @@ const ProjectCreator = () => {
   };
 
   const handleGenerateImages = () => {
+    if (!phone.trim()) {
+      alert('Por favor, insira seu número de telefone para gerar as imagens.');
+      return;
+    }
+    
+    // Preencher automaticamente o modal com os dados já fornecidos
+    setImageFormData({
+      projectDescription: projectDescription,
+      phone: phone
+    });
     setShowImageModal(true);
   };
 
@@ -115,21 +126,34 @@ const ProjectCreator = () => {
                 <div className="space-y-4">
                   <div>
                     <label className="block text-sm font-medium text-gray-300 mb-2">
+                      Número de Telefone *
+                    </label>
+                    <input
+                      type="tel"
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
+                      placeholder="(11) 98786-938"
+                      className="w-full bg-gray-900/50 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-yellow-500 focus:ring-1 focus:ring-yellow-500"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-gray-300 mb-2">
                       Descreva seu projeto ideal:
                     </label>
                     <textarea
                       value={projectDescription}
                       onChange={(e) => setProjectDescription(e.target.value)}
-                      placeholder="Ex: Quero uma cozinha moderna com ilha central, armários brancos e detalhes em madeira. O espaço tem 4x3 metros..."
+                      placeholder="Ex: Quero uma sala moderna com móveis sob medida, iluminação inteligente e detalhes em madeira. O espaço tem 4x3 metros..."
                       className="w-full h-32 bg-gray-900/50 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-yellow-500 focus:ring-1 focus:ring-yellow-500 resize-none"
                     />
                   </div>
                   
-                  <div className="flex flex-col sm:flex-row gap-3">
+                  <div className="flex flex-col gap-3">
                     <button
                       onClick={handleGenerateSuggestions}
                       disabled={!projectDescription.trim() || isGenerating}
-                      className="flex-1 bg-yellow-500 hover:bg-yellow-400 disabled:bg-gray-600 disabled:cursor-not-allowed text-black font-semibold px-6 py-3 rounded-lg transition-colors duration-300 flex items-center justify-center space-x-2"
+                      className="w-full bg-yellow-500 hover:bg-yellow-400 disabled:bg-gray-600 disabled:cursor-not-allowed text-black font-semibold px-6 py-3 rounded-lg transition-colors duration-300 flex items-center justify-center space-x-2"
                     >
                       {isGenerating ? (
                         <>
@@ -144,13 +168,17 @@ const ProjectCreator = () => {
                       )}
                     </button>
                     
-                    <button
-                      onClick={handleGenerateImages}
-                      className="flex-1 bg-blue-600 hover:bg-blue-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300 flex items-center justify-center space-x-2"
-                    >
-                      <Image className="w-5 h-5" />
-                      <span>Gerar Imagens</span>
-                    </button>
+                    {/* Botão de gerar imagem só aparece após gerar sugestões */}
+                    {suggestions && (
+                      <button
+                        onClick={handleGenerateImages}
+                        disabled={!phone.trim()}
+                        className="w-full bg-blue-600 hover:bg-blue-500 disabled:bg-gray-600 disabled:cursor-not-allowed text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300 flex items-center justify-center space-x-2"
+                      >
+                        <Image className="w-5 h-5" />
+                        <span>Gerar Imagens</span>
+                      </button>
+                    )}
                   </div>
                 </div>
               </div>
@@ -197,7 +225,14 @@ const ProjectCreator = () => {
                     >
                       Solicitar Orçamento
                     </button>
-                    <button className="flex-1 border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black px-4 py-2 rounded-lg transition-colors duration-300">
+                    <button 
+                      onClick={() => {
+                        setSuggestions('');
+                        setProjectDescription('');
+                        setPhone('');
+                      }}
+                      className="flex-1 border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black px-4 py-2 rounded-lg transition-colors duration-300"
+                    >
                       Nova Consulta
                     </button>
                   </div>
