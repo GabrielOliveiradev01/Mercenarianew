@@ -10,31 +10,31 @@ const Portfolio = () => {
       id: 1,
       title: "Sala de Estar Elegante",
       category: "Sala de Estar",
-      image: "/Mercenaria Imagens/sala de estar.jpeg"
+      image: "https://e73a0938e72d1b577d3113820879a278.cdn.bubble.io/f1756322576585x501452387132821360/sala%20de%20estar.jpeg"
     },
     {
       id: 2,
       title: "Quarto Confortável",
       category: "Quarto",
-      image: "/Mercenaria Imagens/Quarto.jpeg"
+      image: "https://e73a0938e72d1b577d3113820879a278.cdn.bubble.io/f1756322577378x344033719992383100/Quarto.jpeg"
     },
     {
       id: 3,
       title: "Cozinha Funcional",
       category: "Cozinha",
-      image: "/Mercenaria Imagens/cozinha.jpeg"
+      image: "https://e73a0938e72d1b577d3113820879a278.cdn.bubble.io/f1756322574737x832005576340666600/cozinha.jpeg"
     },
     {
       id: 4,
       title: "Escritório Profissional",
       category: "Escritório",
-      image: "/Mercenaria Imagens/Escritorio.jpeg"
+      image: "https://e73a0938e72d1b577d3113820879a278.cdn.bubble.io/f1756322575501x683984711536348200/Escritorio.jpeg"
     },
     {
       id: 5,
       title: "Banheiro Moderno",
       category: "Banheiro",
-      image: "/Mercenaria Imagens/banheiro.jpeg"
+      image: "https://e73a0938e72d1b577d3113820879a278.cdn.bubble.io/f1756322574598x595687512670131700/banheiro.jpeg"
     }
   ];
 
