@@ -10,31 +10,31 @@ const Portfolio = () => {
       id: 1,
       title: "Sala de Estar Elegante",
       category: "Sala de Estar",
-      image: "../Mercenaria Imagens/sala de estar.jpeg"
+      image: "/Mercenaria Imagens/sala de estar.jpeg"
     },
     {
       id: 2,
       title: "Quarto Confortável",
       category: "Quarto",
-      image: "../Mercenaria Imagens/Quarto.jpeg"
+      image: "/Mercenaria Imagens/Quarto.jpeg"
     },
     {
       id: 3,
       title: "Cozinha Funcional",
       category: "Cozinha",
-      image: "../Mercenaria Imagens/cozinha.jpeg"
+      image: "/Mercenaria Imagens/cozinha.jpeg"
     },
     {
       id: 4,
       title: "Escritório Profissional",
       category: "Escritório",
-      image: "../Mercenaria Imagens/Escritorio.jpeg"
+      image: "/Mercenaria Imagens/Escritorio.jpeg"
     },
     {
       id: 5,
       title: "Banheiro Moderno",
       category: "Banheiro",
-      image: "../Mercenaria Imagens/banheiro.jpeg"
+      image: "/Mercenaria Imagens/banheiro.jpeg"
     }
   ];
 
