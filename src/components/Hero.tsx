@@ -32,7 +32,7 @@ const Hero = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl font-bold font-['Playfair_Display'] leading-tight">
+                      <h1 className="text-5xl md:text-7xl font-bold font-poppins leading-tight">
             <span className="text-white">Elegância que se</span>
             <br />
             <span className="text-yellow-500">encaixa no seu espaço</span>
@@ -50,7 +50,7 @@ const Hero = () => {
               onClick={() => scrollToSection('portfolio')}
               className="group bg-yellow-500 hover:bg-yellow-400 text-black px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl flex items-center space-x-2"
             >
-              <span>Ver Portfólio</span>
+                              <span>Visualize seu sonho</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
             

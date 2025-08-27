@@ -18,8 +18,8 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="md:col-span-2">
             <div className="text-3xl font-bold mb-4">
-              <span className="text-white font-['Playfair_Display']">BASS</span>
-              <span className="text-yellow-500 font-['Playfair_Display']">ART</span>
+                          <span className="text-white font-poppins">BASS</span>
+            <span className="text-yellow-500 font-poppins">ART</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Transformando espaços em ambientes únicos com móveis planejados de alta qualidade. 

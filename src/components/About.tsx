@@ -32,7 +32,7 @@ const About = () => {
           {/* Content */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h2 className="text-4xl md:text-5xl font-bold font-['Playfair_Display']">
+              <h2 className="text-4xl md:text-5xl font-bold font-poppins">
                 <span className="text-white">Quem</span>{' '}
                 <span className="text-yellow-500">Somos</span>
               </h2>

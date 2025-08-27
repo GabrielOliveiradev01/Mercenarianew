@@ -39,8 +39,8 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-2xl font-bold">
-            <span className="text-white font-['Playfair_Display']">BASS</span>
-            <span className="text-yellow-500 font-['Playfair_Display']">ART</span>
+            <span className="text-white font-poppins">BASS</span>
+            <span className="text-yellow-500 font-poppins">ART</span>
           </div>
 
           {/* Desktop Menu */}

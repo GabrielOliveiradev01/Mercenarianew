@@ -46,7 +46,7 @@ const Services = () => {
       <div className="container mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold font-['Playfair_Display'] mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold font-poppins mb-4">
             <span className="text-white">Nossos</span>{' '}
             <span className="text-yellow-500">Serviços</span>
           </h2>
@@ -71,7 +71,7 @@ const Services = () => {
 
               {/* Content */}
               <div className="space-y-4">
-                <h3 className="text-2xl font-bold text-white font-['Playfair_Display'] group-hover:text-yellow-500 transition-colors">
+                <h3 className="text-2xl font-bold text-white font-poppins group-hover:text-yellow-500 transition-colors">
                   {service.title}
                 </h3>
                 
@@ -102,7 +102,7 @@ const Services = () => {
         {/* CTA Section */}
         <div className="text-center mt-16">
           <div className="bg-gradient-to-r from-yellow-500/10 to-yellow-500/5 border border-yellow-500/20 rounded-2xl p-8 max-w-3xl mx-auto">
-            <h3 className="text-2xl font-bold text-white mb-4 font-['Playfair_Display']">
+                            <h3 className="text-2xl font-bold text-white mb-4 font-poppins">
               Pronto para transformar seus ambientes?
             </h3>
             <p className="text-gray-300 mb-6">

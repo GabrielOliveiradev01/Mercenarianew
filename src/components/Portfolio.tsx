@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Eye, ArrowLeft, ArrowRight } from 'lucide-react';
+import { Eye, ArrowLeft, ArrowRight, Sparkles } from 'lucide-react';
 
 const Portfolio = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -70,7 +70,7 @@ const Portfolio = () => {
       <div className="container mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold font-['Playfair_Display'] mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold font-poppins mb-4">
             <span className="text-white">Nosso</span>{' '}
             <span className="text-yellow-500">Portfólio</span>
           </h2>
@@ -148,6 +148,35 @@ const Portfolio = () => {
             </div>
           </div>
         )}
+
+        {/* Crie seu projeto Section */}
+        <div className="mt-20 text-center">
+          <div className="bg-gradient-to-r from-yellow-500/10 to-orange-500/10 border border-yellow-500/20 rounded-2xl p-12 backdrop-blur-sm">
+            <div className="mb-6">
+              <div className="w-16 h-16 bg-yellow-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Sparkles className="w-8 h-8 text-yellow-500" />
+              </div>
+            </div>
+            <h3 className="text-3xl md:text-4xl font-bold font-poppins mb-4">
+              <span className="text-white">Inspirado pelo nosso</span>{' '}
+              <span className="text-yellow-500">portfólio</span>?
+            </h3>
+            <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-8">
+              Transforme sua visão em realidade! Use nosso assistente de design IA para criar 
+              o projeto dos seus sonhos com sugestões personalizadas.
+            </p>
+            <button
+              onClick={() => {
+                const element = document.getElementById('project-creator');
+                if (element) element.scrollIntoView({ behavior: 'smooth' });
+              }}
+              className="bg-yellow-500 hover:bg-yellow-400 text-black font-bold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center space-x-2 mx-auto"
+            >
+              <Sparkles className="w-5 h-5" />
+              <span>Crie Seu Projeto Agora</span>
+            </button>
+          </div>
+        </div>
       </div>
     </section>
   );
