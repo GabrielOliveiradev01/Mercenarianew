@@ -61,10 +61,10 @@ npm run preview
 
 ## 📞 Contato
 
-- **WhatsApp**: (11) 98786-938
+- **WhatsApp**: (11) 98787-6938
 - **Email**: contato@bassart.com.br
 
 ## 🔗 Links
 
 - **Site**: [bassart.com.br](https://bassart.com.br)
-- **WhatsApp**: [wa.me/551198786938](https://wa.me/551198786938) 
+- **WhatsApp**: [wa.me/5511987876938](https://wa.me/5511987876938) 

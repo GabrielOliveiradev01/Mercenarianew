@@ -8,39 +8,33 @@ const Portfolio = () => {
   const portfolioItems = [
     {
       id: 1,
-      title: "Sala Moderna Premium",
-      category: "Sala",
-      image: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800"
+      title: "Sala de Estar Elegante",
+      category: "Sala de Estar",
+      image: "../Mercenaria Imagens/sala de estar.jpeg"
     },
     {
       id: 2,
-      title: "Sala de Jantar Elegante",
-      category: "Sala de Jantar",
-      image: "https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=800"
+      title: "Quarto Confortável",
+      category: "Quarto",
+      image: "../Mercenaria Imagens/Quarto.jpeg"
     },
     {
       id: 3,
-      title: "Sala de Descanso",
-      category: "Sala de Descanso",
-      image: "https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800"
+      title: "Cozinha Funcional",
+      category: "Cozinha",
+      image: "../Mercenaria Imagens/cozinha.jpeg"
     },
     {
       id: 4,
-      title: "Sala de Estar Contemporânea",
-      category: "Sala",
-      image: "https://images.pexels.com/photos/1571470/pexels-photo-1571470.jpeg?auto=compress&cs=tinysrgb&w=800"
+      title: "Escritório Profissional",
+      category: "Escritório",
+      image: "../Mercenaria Imagens/Escritorio.jpeg"
     },
     {
       id: 5,
-      title: "Escritório Planejado",
-      category: "Escritório",
-      image: "https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=800"
-    },
-    {
-      id: 6,
-      title: "Sala Gourmet",
-      category: "Sala",
-      image: "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800"
+      title: "Banheiro Moderno",
+      category: "Banheiro",
+      image: "../Mercenaria Imagens/banheiro.jpeg"
     }
   ];
 

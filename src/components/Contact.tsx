@@ -41,8 +41,8 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "WhatsApp",
-      info: "(11) 98786-938",
-      link: "https://wa.me/551198786938"
+              info: "(11) 98787-6938",
+              link: "https://wa.me/5511987876938"
     },
     {
       icon: <Mail className="w-6 h-6" />,
@@ -114,12 +114,12 @@ const Contact = () => {
                 Fale conosco agora mesmo pelo WhatsApp para um atendimento rápido e personalizado
               </p>
               <a
-                href="https://wa.me/551198786938"
+                href="https://wa.me/5511987876938"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-white text-green-600 font-semibold px-6 py-3 rounded-lg hover:bg-green-50 transition-colors duration-300 font-bold"
               >
-                WhatsApp (11) 98786-938
+                                  WhatsApp (11) 98787-6938
               </a>
             </div>
           </div>
@@ -176,7 +176,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       className="w-full bg-gray-900/50 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-yellow-500 focus:ring-1 focus:ring-yellow-500"
-                      placeholder="(11) 98786-938"
+                      placeholder="(11) 98787-6938"
                     />
                   </div>
                   
