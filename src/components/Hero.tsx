@@ -46,20 +46,12 @@ const Hero = () => {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <button 
-              onClick={() => scrollToSection('portfolio')}
+                        <button 
+              onClick={() => scrollToSection('project-creator')}
               className="group bg-yellow-500 hover:bg-yellow-400 text-black px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl flex items-center space-x-2"
             >
-                              <span>Visualize seu sonho</span>
+              <span>Crie seu projeto</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
-            
-            <button 
-              onClick={() => scrollToSection('contact')}
-              className="group border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 flex items-center space-x-2"
-            >
-              <span>Fale Conosco</span>
-              <Play className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>
 
