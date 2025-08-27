@@ -133,12 +133,12 @@ const ProjectCreator = () => {
                     {isGenerating ? (
                       <>
                         <div className="animate-spin rounded-full h-5 w-5 border-2 border-black border-t-transparent"></div>
-                        <span>Gerando Sugestões e Enviando...</span>
+                        <span>Gerando Projeto...</span>
                       </>
                     ) : (
                       <>
                         <Send className="w-5 h-5" />
-                        <span>Gerar Sugestões e Enviar</span>
+                        <span>Gerar Projeto</span>
                       </>
                     )}
                   </button>
